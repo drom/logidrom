@@ -1,10 +1,10 @@
 {
   "name": "circuit",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "Digital Circuit rendering engine",
-  "main": "index.js",
+  "main": "lib/index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "grunt"
   },
   "repository": {
     "type": "git",
@@ -15,5 +15,15 @@
   "bugs": {
     "url": "https://github.com/drom/circuit/issues"
   },
-  "homepage": "https://github.com/drom/circuit"
+  "homepage": "https://github.com/drom/circuit",
+  "devDependencies": {
+    "chai": "*",
+    "eslint": "*",
+    "grunt": "*",
+    "grunt-eslint": "*",
+    "grunt-mocha-istanbul": "*",
+    "grunt-mocha-test": "*",
+    "istanbul": "*",
+    "mocha": "*"
+  }
 }
