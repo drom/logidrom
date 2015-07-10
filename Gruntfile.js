@@ -24,5 +24,5 @@ module.exports = function(grunt) {
 
     grunt.registerTask('mocha', ['mochaTest']);
     grunt.registerTask('coverage', ['mocha_istanbul:coverage']);
-    grunt.registerTask('default', ['eslint', 'mocha']);
+    grunt.registerTask('default', ['eslint', 'coverage']);
 };
