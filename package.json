@@ -19,7 +19,7 @@
   "devDependencies": {
     "chai": "*",
     "eslint": "*",
-    "grunt": "*",
+    "grunt-cli": "*",
     "grunt-eslint": "*",
     "grunt-mocha-istanbul": "*",
     "grunt-mocha-test": "*",
