@@ -20,6 +20,7 @@
     "chai": "*",
     "eslint": "*",
     "grunt-cli": "*",
+    "grunt-coveralls": "^1.0.0",
     "grunt-eslint": "*",
     "grunt-mocha-istanbul": "*",
     "grunt-mocha-test": "*",

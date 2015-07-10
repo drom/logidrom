@@ -15,14 +15,20 @@ module.exports = function(grunt) {
             coverage: {
                 src: 'test'
             }
+        },
+        coveralls: {
+            your_target: {
+                src: 'coverage/lcov.info'
+            }
         }
     });
 
     grunt.loadNpmTasks('grunt-eslint');
     grunt.loadNpmTasks('grunt-mocha-test');
     grunt.loadNpmTasks('grunt-mocha-istanbul');
+    grunt.loadNpmTasks('grunt-coveralls');
 
     grunt.registerTask('mocha', ['mochaTest']);
     grunt.registerTask('coverage', ['mocha_istanbul:coverage']);
-    grunt.registerTask('default', ['eslint', 'coverage']);
+    grunt.registerTask('default', ['eslint', 'coverage', 'coveralls']);
 };
