@@ -19,6 +19,7 @@
   "devDependencies": {
     "chai": "*",
     "eslint": "*",
+    "grunt": "^0.4",
     "grunt-cli": "*",
     "grunt-coveralls": "*",
     "grunt-eslint": "*",
