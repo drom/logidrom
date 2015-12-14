@@ -19,5 +19,5 @@
 
 ## ГОСТ (GOST)
 
- * [ГОСТ 2.743—91](http://www.bmstu.ru/~rl1/courses/inform/gost2_743-91.pdf)
+ * [ГОСТ 2.743—91](http://gostexpert.ru/gost/getDoc/3720)
 
