@@ -13,7 +13,7 @@
 
 ## DIN
 
- * DIN 40700
+ * [DIN 40700](https://commons.wikimedia.org/wiki/Category:DIN_40700)
 
 ## ГОСТ (GOST)
 
