@@ -13,7 +13,9 @@
 
 ## DIN
 
- * [DIN 40700](https://commons.wikimedia.org/wiki/Category:DIN_40700)
+  * DIN 40700
+    * [logic symbols](https://commons.wikimedia.org/wiki/Category:DIN_40700)
+    * [circuit symbols](https://commons.wikimedia.org/wiki/Category:DIN_circuit_symbols)
 
 ## ГОСТ (GOST)
 
