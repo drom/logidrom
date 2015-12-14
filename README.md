@@ -6,4 +6,4 @@
 
 Digital Circuit rendering engine
 
-[styles](styles.md)
+[styles](ref/styles.md)
