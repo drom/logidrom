@@ -19,5 +19,5 @@
 
 ## ГОСТ (GOST)
 
- * [ГОСТ 2.743—91](http://gostexpert.ru/gost/getDoc/3720)
+ * [ГОСТ 2.743—91 1994](http://electron.faculty.ifmo.ru/cons/2.743-91%20oct1994.pdf)
 
