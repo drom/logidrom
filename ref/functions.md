@@ -13,3 +13,9 @@
 | xnor | `~^`   |
 | add  | `+`    |
 | mul  | `*`    |
+
+## structure
+
+```js
+[and, a, b, [or, c, [not, d]]]
+```
