@@ -28,3 +28,6 @@ Original Standard is DIN 700 (renamed later as 40700) to define a set of unique 
 
  * [ГОСТ 2.743—91](http://gostexpert.ru/gost/getDoc/3720)
 
+## Some links
+
+[kombinatorik](http://www.semiversus.com/dic/grundlagen_der_digitaltechnik/kombinatorik.html)
