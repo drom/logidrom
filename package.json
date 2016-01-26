@@ -1,31 +1,30 @@
 {
-  "name": "circuit",
-  "version": "0.0.2",
-  "description": "Digital Circuit rendering engine",
+  "name": "logidrom",
+  "version": "0.1.0",
+  "description": "Digital logic circuit rendering engine",
   "main": "lib/index.js",
   "scripts": {
-    "test": "grunt"
+    "test": "eslint lib/*.js && istanbul cover ./node_modules/.bin/_mocha test"
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/drom/circuit.git"
+    "url": "https://github.com/drom/logidrom.git"
   },
   "author": "drom",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/drom/circuit/issues"
+    "url": "https://github.com/drom/logidrom/issues"
   },
-  "homepage": "https://github.com/drom/circuit",
+  "homepage": "https://github.com/drom/logidrom",
   "devDependencies": {
-    "chai": "*",
-    "eslint": "*",
-    "grunt": "^0.4",
-    "grunt-cli": "*",
-    "grunt-coveralls": "*",
-    "grunt-eslint": "*",
-    "grunt-mocha-istanbul": "*",
-    "grunt-mocha-test": "*",
-    "istanbul": "*",
-    "mocha": "*"
+    "chai": "^3.4.1",
+    "eslint": "^1.10.3",
+    "esprima": "^2.7.1",
+    "istanbul": "^0.4.2",
+    "mocha": "^2.3.4",
+    "onml": "^0.3.1"
+  },
+  "dependencies": {
+    "estraverse": "^4.1.1"
   }
 }
