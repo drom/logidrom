@@ -1,11 +1,11 @@
 'use strict';
 
-var lib = require('../lib/render-assign'),
-    fs = require('fs'),
-    onml = require('onml'),
-    // jsof = require('jsof'),
-    esprima = require('esprima'),
-    expect = require('chai').expect;
+var lib = require('../lib/render-assign');
+var fs = require('fs');
+var onml = require('onml');
+// var jsof = require('jsof');
+// var esprima = require('esprima');
+// var expect = require('chai').expect;
 
 var w3 = {
     svg: 'http://www.w3.org/2000/svg',
@@ -20,14 +20,14 @@ var dat = {
     'xor'  : [['x', ['^', 'a', 'b']]],
     'nand' : [['x', ['~&', 'a', 'b']]],
     'nor'  : [['x', ['~|', 'a', 'b']]],
-    'oa1'  : [['x', ['~|', 'a0', 'a1', 'a2', ['~&', 'a3', 'a4', 'a5']]]],
+    'oa1'  : [['x', ['~|', 'a0', 'a1', 'a2', ['~&', 'a3', 'a4', 'a5']]]]
 };
 
 describe('basic', function () {
     it('basic', function (done) {
         var res = '<html><body>';
         Object.keys(dat).forEach(function (t, index) {
-            var src = dat[t]
+            var src = dat[t];
             res += '<pre>' + JSON.stringify(src) + '</pre>\n';
             // res += '<pre>' + src + '</pre>\n';
             // var ast = esprima.parse(src);
@@ -40,3 +40,5 @@ describe('basic', function () {
         fs.writeFile('report.html', res, {encoding: 'utf8'}, done);
     });
 });
+
+/* eslint-env mocha */

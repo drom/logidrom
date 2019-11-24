@@ -4,7 +4,7 @@
   "description": "Digital logic circuit rendering engine",
   "main": "lib/index.js",
   "scripts": {
-    "test": "eslint lib/*.js && istanbul cover ./node_modules/.bin/_mocha test"
+    "test": "eslint lib test && nyc mocha test"
   },
   "repository": {
     "type": "git",
@@ -17,14 +17,18 @@
   },
   "homepage": "https://github.com/drom/logidrom",
   "devDependencies": {
-    "chai": "^3.4.1",
-    "eslint": "^1.10.3",
-    "esprima": "^2.7.1",
-    "istanbul": "^0.4.2",
-    "mocha": "^2.3.4",
-    "onml": "^0.3.1"
+    "@drom/eslint-config": "^0.10.0",
+    "chai": "^4.2.0",
+    "eslint": "^5.16.0",
+    "esprima": "^4.0.1",
+    "mocha": "^6.2.2",
+    "nyc": "^14.1.1",
+    "onml": "^1.1.0"
   },
   "dependencies": {
     "estraverse": "^4.1.1"
+  },
+  "eslintConfig": {
+    "extends": "@drom/eslint-config/eslint4/node4"
   }
 }
