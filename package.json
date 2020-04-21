@@ -13,20 +13,20 @@
   "author": "drom",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/drom/logidrom/issues"
+    "url": "https://github.com/wavedrom/logidrom/issues"
   },
-  "homepage": "https://github.com/drom/logidrom",
+  "homepage": "https://github.com/wavedrom/logidrom",
   "devDependencies": {
     "@drom/eslint-config": "^0.10.0",
     "chai": "^4.2.0",
-    "eslint": "^5.16.0",
+    "eslint": "^6.8.0",
     "esprima": "^4.0.1",
-    "mocha": "^6.2.2",
-    "nyc": "^14.1.1",
+    "mocha": "^7.1.1",
+    "nyc": "^15.0.1",
     "onml": "^1.1.0"
   },
   "dependencies": {
-    "estraverse": "^4.1.1"
+    "estraverse": "^5.1.0"
   },
   "eslintConfig": {
     "extends": "@drom/eslint-config/eslint4/node4"
