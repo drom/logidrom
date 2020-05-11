@@ -1370,9 +1370,9 @@
      borderopacity="1.0"
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
-     inkscape:zoom="1"
-     inkscape:cx="255.49911"
-     inkscape:cy="203.00121"
+     inkscape:zoom="2"
+     inkscape:cx="168.16192"
+     inkscape:cy="229.47502"
      inkscape:document-units="px"
      inkscape:current-layer="layer1"
      showgrid="true"
@@ -1399,7 +1399,7 @@
         <dc:format>image/svg+xml</dc:format>
         <dc:type
            rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
-        <dc:title></dc:title>
+        <dc:title />
       </cc:Work>
     </rdf:RDF>
   </metadata>
@@ -2214,5 +2214,29 @@
        id="path14555-5-9-4-8-8-8-1"
        inkscape:connector-curvature="0"
        sodipodi:nodetypes="cc" />
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;line-height:0%;font-family:sans-serif;text-align:center;letter-spacing:0px;word-spacing:0px;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       x="-804.36218"
+       y="368"
+       id="text13852-2-03-4-2-8-9-36"
+       transform="rotate(-90)"><tspan
+         sodipodi:role="line"
+         id="tspan13854-9-19-8-66-7-1-7"
+         x="-804.36218"
+         y="368"
+         style="font-size:17.5px;line-height:1.25;text-align:center;text-anchor:middle">DataPath</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;line-height:0%;font-family:sans-serif;text-align:center;letter-spacing:0px;word-spacing:0px;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       x="-924.36218"
+       y="64"
+       id="text13852-2-03-4-2-8-9-36-5"
+       transform="rotate(-90)"><tspan
+         sodipodi:role="line"
+         id="tspan13854-9-19-8-66-7-1-7-3"
+         x="-924.36218"
+         y="64"
+         style="font-size:17.5px;line-height:1.25;text-align:center;text-anchor:middle">Control logic</tspan></text>
   </g>
 </svg>
