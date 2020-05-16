@@ -4,4 +4,6 @@
 
 Digital logic circuit rendering engine
 
-[styles](ref/styles.md)
+Part of wavedrom.com project
+
+Examples: https://observablehq.com/collection/@drom/schematic
