@@ -3,9 +3,6 @@
   "version": "0.2.1",
   "description": "Digital logic circuit rendering engine",
   "main": "./lib/",
-  "scripts": {
-    "test": "eslint lib test && nyc mocha test"
-  },
   "repository": {
     "type": "git",
     "url": "https://github.com/drom/logidrom.git"
@@ -16,8 +13,19 @@
     "url": "https://github.com/wavedrom/logidrom/issues"
   },
   "homepage": "https://github.com/wavedrom/logidrom",
+  "files": [
+    "build/logidrom.js",
+    "*.js"
+  ],
+  "unpkg": "build/logidrom.js",
+  "scripts": {
+    "test": "eslint lib test && nyc mocha test",
+    "browserify": "browserify --standalone logidrom lib/index.js > build/logidrom.js",
+    "prepublish": "npm run test && mkdir -p build && npm run browserify"
+  },
   "devDependencies": {
     "@drom/eslint-config": "^0.10.0",
+    "browserify": "^17.0.0",
     "chai": "^4.2.0",
     "eslint": "^7.15.0",
     "esprima": "^4.0.1",
