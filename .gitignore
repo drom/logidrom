@@ -1,5 +1,6 @@
 .nyc_output
 build
+ref
 coverage
 node_modules
 package-lock.json
