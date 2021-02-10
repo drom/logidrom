@@ -15,7 +15,7 @@
   "homepage": "https://github.com/wavedrom/logidrom",
   "files": [
     "build/logidrom.js",
-    "*.js"
+    "lib"
   ],
   "unpkg": "build/logidrom.js",
   "scripts": {
