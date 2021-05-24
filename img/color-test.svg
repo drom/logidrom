@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="512" height="128" viewBox="0 0 512 128">
+<style>
+  line { stroke: var(--color-text-primary, #000); }
+</style>
+<g>
+  <line class="line" x1="64" y1="64" x2="448" y2="64"></line>
+</g>
+</svg>
