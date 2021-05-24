@@ -1,28 +1,48 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="512" height="128" viewBox="0 0 512 128">
+<svg xmlns="http://www.w3.org/2000/svg" width="640" height="128" viewBox="0 0 640 128">
 <style>
   .blk { fill: #000; }
   .wht { fill: #fff; }
   .line { stroke: var(--color-text-primary, #000); }
-  .r1 { fill: hsla(118, 100%, 50%, 1); }
-  .r2 { fill: hsla(248, 100%, 50%, 1); }
-  .r3 { fill: hsla(39,  100%, 50%, 1); }
-  .r4 { fill: hsla(0,   100%, 50%, 1); }
-
+  .r1 { fill: hsla(118, 100%, 50%,  1); }
+  .r2 { fill: hsla(248, 100%, 50%,  1); }
+  .r3 { fill: hsla(39,  100%, 50%,  1); }
+  .r4 { fill: hsla(0,   100%, 50%,  1); }
+  .r5 { fill: hsla(0,   0%,   100%, 1); }
+  .r6 { fill: hsla(0,   0%,   75%,  1); }
+  .r7 { fill: hsla(0,   0%,   50%,  1); }
+  .r8 { fill: hsla(0,   0%,   25%,  1); }
+  .r9 { fill: hsla(0,   0%,   0%,   1); }
 </style>
 <g>
-  <rect class="wht" width="512" height="64" x="0" y="0"/>
+  <rect class="wht" width="640" height="64" x="0" y="0"/>
 
-  <rect class="r1" width="48" height="48" x="0" y="8"/>
-  <rect class="r2" width="48" height="48" x="64" y="8"/>
-  <rect class="r3" width="48" height="48" x="128" y="8"/>
-  <rect class="r4" width="48" height="48" x="190" y="8"/>
+  <g transform="translate(8,8)">
+    <rect class="r1" width="48" height="48" x="0" y="0"/>
+    <rect class="r2" width="48" height="48" x="64" y="0"/>
+    <rect class="r3" width="48" height="48" x="128" y="0"/>
+    <rect class="r4" width="48" height="48" x="192" y="0"/>
+    <rect class="r4" width="48" height="48" x="256" y="0"/>
+    <rect class="r5" width="48" height="48" x="320" y="0"/>
+    <rect class="r6" width="48" height="48" x="384" y="0"/>
+    <rect class="r7" width="48" height="48" x="448" y="0"/>
+    <rect class="r8" width="48" height="48" x="512" y="0"/>
+    <rect class="r9" width="48" height="48" x="576" y="0"/>
+  </g>
 
-  <rect class="blk" width="512" height="64" x="0" y="64"/>
+  <rect class="blk" width="640" height="64" x="0" y="64"/>
   <!-- <line class="line" x1="64" y1="64" x2="448" y2="64"/> -->
 
-  <rect class="r1" width="48" height="48" x="0" y="72"/>
-  <rect class="r2" width="48" height="48" x="64" y="72"/>
-  <rect class="r3" width="48" height="48" x="128" y="72"/>
-  <rect class="r4" width="48" height="48" x="190" y="72"/>
+  <g transform="translate(8,72)">
+    <rect class="r1" width="48" height="48" x="0" y="0"/>
+    <rect class="r2" width="48" height="48" x="64" y="0"/>
+    <rect class="r3" width="48" height="48" x="128" y="0"/>
+    <rect class="r4" width="48" height="48" x="192" y="0"/>
+    <rect class="r4" width="48" height="48" x="256" y="0"/>
+    <rect class="r5" width="48" height="48" x="320" y="0"/>
+    <rect class="r6" width="48" height="48" x="384" y="0"/>
+    <rect class="r7" width="48" height="48" x="448" y="0"/>
+    <rect class="r8" width="48" height="48" x="512" y="0"/>
+    <rect class="r9" width="48" height="48" x="576" y="0"/>
+  </g>
 </g>
 </svg>
