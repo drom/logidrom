@@ -1,8 +1,28 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="512" height="128" viewBox="0 0 512 128">
 <style>
-  line { stroke: var(--color-text-primary, #000); }
+  .blk { fill: #000; }
+  .wht { fill: #fff; }
+  .line { stroke: var(--color-text-primary, #000); }
+  .r1 { fill: hsla(118, 100%, 50%, 1); }
+  .r2 { fill: hsla(248, 100%, 50%, 1); }
+  .r3 { fill: hsla(39,  100%, 50%, 1); }
+  .r4 { fill: hsla(0,   100%, 50%, 1); }
+
 </style>
 <g>
-  <line class="line" x1="64" y1="64" x2="448" y2="64"></line>
+  <rect class="wht" width="512" height="64" x="0" y="0"/>
+
+  <rect class="r1" width="48" height="48" x="0" y="8"/>
+  <rect class="r2" width="48" height="48" x="64" y="8"/>
+  <rect class="r3" width="48" height="48" x="128" y="8"/>
+  <rect class="r4" width="48" height="48" x="190" y="8"/>
+
+  <rect class="blk" width="512" height="64" x="0" y="64"/>
+  <!-- <line class="line" x1="64" y1="64" x2="448" y2="64"/> -->
+
+  <rect class="r1" width="48" height="48" x="0" y="72"/>
+  <rect class="r2" width="48" height="48" x="64" y="72"/>
+  <rect class="r3" width="48" height="48" x="128" y="72"/>
+  <rect class="r4" width="48" height="48" x="190" y="72"/>
 </g>
 </svg>
