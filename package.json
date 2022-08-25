@@ -21,6 +21,7 @@
   "scripts": {
     "test": "eslint lib test && nyc mocha test",
     "browserify": "browserify --standalone logidrom lib/index.js > build/logidrom.js",
+    "build": "browserify lib/app.js -o public/app.js",
     "prepublish": "npm run test && mkdir -p build && npm run browserify"
   },
   "devDependencies": {

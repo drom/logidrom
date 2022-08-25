@@ -1,0 +1,77 @@
+html, body {
+  background: #000;
+  /* height: 100%; */
+  margin: 0;
+}
+.container {
+  /* height: 100%; */
+  margin: 0;
+}
+.hole { background: #000; }
+.panel {
+  background: #111;
+  display: block;
+  margin: auto;
+  /* top: 50%; */
+  /* position: relative; */
+  /* transform: translateY(-50%); */
+}
+/* rect {
+  fill:hsla(0, 100%, 100%, 0.1);
+} */
+
+text {
+  font-family: 'B612', sans-serif;
+  text-anchor: middle;
+  font-size: 16px;
+  fill: #6fff8d;
+}
+
+.modName {
+  text-anchor: start;
+  font-size: 24px;
+}
+
+g { user-select: none; }
+
+.mark { stroke: #f55; fill: hsla(0, 0%, 0%, 0.2); }
+
+.gate { fill: hsla(0, 0%, 17%, 1); }
+
+path.dff { fill: hsl(201, 100%, 72%); stroke-width: 0; }
+
+.literal { stroke: none; }
+
+.signed { stroke: hsl(0, 100%, 72%); }
+.unsigned { stroke: hsl(201, 100%, 72%); }
+
+.zeroer { stroke-width: 1px; stroke-dasharray: 6 2; }
+.scalar { stroke-width: 1px; }
+.vector { stroke-width: 3px; }
+
+
+.parameter {
+  fill: #a3ffa6;
+}
+
+.siglabel { fill: hsl(0, 100%, 72%); }
+
+.unsiglabel { fill: hsl(201, 100%, 72%); }
+
+.unsiglabel.dff {
+  fill: #000;
+  stroke: none;
+  font-weight: bold;
+  font-style: italic;
+  font-size: 18px;
+}
+
+.siglabel.dff {
+  fill: #000;
+  stroke: none;
+  font-weight: bold;
+  font-style: italic;
+  font-size: 18px;
+}
+
+.signed.dff { fill: hsl(0, 100%, 72%); }
