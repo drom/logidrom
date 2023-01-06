@@ -26,12 +26,12 @@
   },
   "devDependencies": {
     "@drom/eslint-config": "^0.10.0",
-    "browserify": "^17.0.0",
-    "chai": "^4.2.0",
-    "eslint": "^7.15.0",
+    "browserify": "^17.0",
+    "chai": "^4.3",
+    "eslint": "^8.31",
     "esprima": "^4.0.1",
-    "mocha": "^8.2.1",
-    "nyc": "^15.0.1",
+    "mocha": "^10.2",
+    "nyc": "^15.0",
     "onml": "^2.1.0"
   },
   "dependencies": {
