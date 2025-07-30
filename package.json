@@ -25,13 +25,13 @@
     "prepublish": "npm run test && mkdir -p build && npm run browserify"
   },
   "devDependencies": {
-    "@drom/eslint-config": "^0.10.0",
+    "@drom/eslint-config": "^0.13.0",
     "browserify": "^17.0",
-    "chai": "^4.3",
-    "eslint": "^8.31",
+    "chai": "5.2.1",
+    "eslint": "^8.57.1",
     "esprima": "^4.0.1",
-    "mocha": "^10.2",
-    "nyc": "^15.0",
+    "mocha": "^11.7.1",
+    "nyc": "^17.1.0",
     "onml": "^2.1.0"
   },
   "dependencies": {
@@ -39,6 +39,6 @@
     "tspan": "^0.4.0"
   },
   "eslintConfig": {
-    "extends": "@drom/eslint-config/eslint4/node8"
+    "extends": "@drom/eslint-config/eslint8/node22"
   }
 }
