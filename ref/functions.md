@@ -13,6 +13,7 @@
 | xnor | `~^`   |
 | add  | `+`    |
 | mul  | `*`    |
+| mux  | `?`    |
 
 ## structure
 

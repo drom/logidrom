@@ -61,6 +61,7 @@ console.log(svgString);
 | `+` | Adder / Add |
 | `-` | Subtractor / Sub |
 | `*` | Multiplier / Mul |
+| `?` | MUX (multiplexer) |
 
 ### JavaScript Expression Rendering
 
