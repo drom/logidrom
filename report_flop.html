@@ -1,0 +1,1376 @@
+<html><head><style>body {background-color: #eee; }</style></head><body><h3>dff_minimal</h3>
+<pre>[
+    [
+        "q",
+        [
+            "$dff",
+            {
+                "d": "din",
+                "clk": "clock"
+            }
+        ]
+    ]
+]</pre>
+<svg id="svgcontent_0" viewBox="0 0 225 49" width="225" height="49">
+  <style>.pinname {font-size:12px; font-style:normal; font-variant:normal; font-weight:500; font-stretch:normal; text-align:center; text-anchor:end; font-family:Helvetica} .wirename {font-size:12px; font-style:normal; font-variant:normal; font-weight:500; font-stretch:normal; text-align:center; text-anchor:start; font-family:Helvetica} .wirename:hover {fill:blue} .gate {color:#000; fill:#ffc; fill-opacity: 1;stroke:#000; stroke-width:1; stroke-opacity:1} .gate:hover {fill:red !important; } .wire {fill:none; stroke:#000; stroke-width:1; stroke-opacity:1} .grid {fill:#fff; fill-opacity:1; stroke:none}</style>
+  <g transform="translate(0.5, 0.5)">
+    <g>
+      <g>
+        <g>
+          <g transform="translate(16,0)">
+            <path d="M160,16 160,16" class="wire"/>
+          </g>
+          <g>
+            <path d="m160,16 16,0" class="wire"/>
+          </g>
+          <g transform="translate(192,16)">
+            <title>
+              <tspan>q</tspan>
+            </title>
+            <text x="-14" y="4" class="wirename">
+              <tspan>q</tspan>
+            </text>
+          </g>
+        </g>
+        <g>
+          <g>
+            <g>
+              <path d="M96,16 L128,16" class="wire"/>
+            </g>
+            <g>
+              <path d="M96,32 L128,32" class="wire"/>
+            </g>
+            <g transform="translate(160,16)">
+              <title>
+                <tspan>$dff</tspan>
+              </title>
+              <g>
+                <path class="gate" d="m -32,-8 32,0 0,32 -32,0 z"/>
+                <text x="-30" y="4" class="wirename">D</text>
+                <path class="wire" d="M -32,12 -26,16 -32,20"/>
+                <text x="-2" y="4" class="pinname">Q</text>
+              </g>
+            </g>
+          </g>
+          <g>
+            <g transform="translate(96,16)">
+              <title>
+                <tspan>din</tspan>
+              </title>
+              <path d="M 2,0 a 2,2 0 1 1 -4,0 2,2 0 1 1 4,0 z"/>
+              <text x="-4" y="4" class="pinname">
+                <tspan>din</tspan>
+              </text>
+            </g>
+          </g>
+          <g>
+            <g transform="translate(96,32)">
+              <title>
+                <tspan>clock</tspan>
+              </title>
+              <path d="M 2,0 a 2,2 0 1 1 -4,0 2,2 0 1 1 4,0 z"/>
+              <text x="-4" y="4" class="pinname">
+                <tspan>clock</tspan>
+              </text>
+            </g>
+          </g>
+        </g>
+      </g>
+    </g>
+  </g>
+</svg>
+
+<hr><h3>dff_with_reset</h3>
+<pre>[
+    [
+        "q",
+        [
+            "$dff",
+            {
+                "d": "din",
+                "clk": "clock",
+                "r": "reset"
+            }
+        ]
+    ]
+]</pre>
+<svg id="svgcontent_1" viewBox="0 0 225 65" width="225" height="65">
+  <style>.pinname {font-size:12px; font-style:normal; font-variant:normal; font-weight:500; font-stretch:normal; text-align:center; text-anchor:end; font-family:Helvetica} .wirename {font-size:12px; font-style:normal; font-variant:normal; font-weight:500; font-stretch:normal; text-align:center; text-anchor:start; font-family:Helvetica} .wirename:hover {fill:blue} .gate {color:#000; fill:#ffc; fill-opacity: 1;stroke:#000; stroke-width:1; stroke-opacity:1} .gate:hover {fill:red !important; } .wire {fill:none; stroke:#000; stroke-width:1; stroke-opacity:1} .grid {fill:#fff; fill-opacity:1; stroke:none}</style>
+  <g transform="translate(0.5, 0.5)">
+    <g>
+      <g>
+        <g>
+          <g transform="translate(16,0)">
+            <path d="M160,16 160,16" class="wire"/>
+          </g>
+          <g>
+            <path d="m160,16 16,0" class="wire"/>
+          </g>
+          <g transform="translate(192,16)">
+            <title>
+              <tspan>q</tspan>
+            </title>
+            <text x="-14" y="4" class="wirename">
+              <tspan>q</tspan>
+            </text>
+          </g>
+        </g>
+        <g>
+          <g>
+            <g>
+              <path d="M96,16 L128,16" class="wire"/>
+            </g>
+            <g>
+              <path d="M96,32 L128,32" class="wire"/>
+            </g>
+            <g>
+              <path d="M96,48 L128,48" class="wire"/>
+            </g>
+            <g transform="translate(160,16)">
+              <title>
+                <tspan>$dff</tspan>
+              </title>
+              <g>
+                <path class="gate" d="m -32,-8 32,0 0,48 -32,0 z"/>
+                <text x="-30" y="4" class="wirename">D</text>
+                <text x="-30" y="36" class="wirename">R</text>
+                <path class="wire" d="M -32,12 -26,16 -32,20"/>
+                <text x="-2" y="4" class="pinname">Q</text>
+              </g>
+            </g>
+          </g>
+          <g>
+            <g transform="translate(96,16)">
+              <title>
+                <tspan>din</tspan>
+              </title>
+              <path d="M 2,0 a 2,2 0 1 1 -4,0 2,2 0 1 1 4,0 z"/>
+              <text x="-4" y="4" class="pinname">
+                <tspan>din</tspan>
+              </text>
+            </g>
+          </g>
+          <g>
+            <g transform="translate(96,32)">
+              <title>
+                <tspan>clock</tspan>
+              </title>
+              <path d="M 2,0 a 2,2 0 1 1 -4,0 2,2 0 1 1 4,0 z"/>
+              <text x="-4" y="4" class="pinname">
+                <tspan>clock</tspan>
+              </text>
+            </g>
+          </g>
+          <g>
+            <g transform="translate(96,48)">
+              <title>
+                <tspan>reset</tspan>
+              </title>
+              <path d="M 2,0 a 2,2 0 1 1 -4,0 2,2 0 1 1 4,0 z"/>
+              <text x="-4" y="4" class="pinname">
+                <tspan>reset</tspan>
+              </text>
+            </g>
+          </g>
+        </g>
+      </g>
+    </g>
+  </g>
+</svg>
+
+<hr><h3>dff_with_set_reset</h3>
+<pre>[
+    [
+        "q",
+        [
+            "$dff",
+            {
+                "d": "din",
+                "clk": "clock",
+                "s": "set",
+                "r": "reset"
+            }
+        ]
+    ]
+]</pre>
+<svg id="svgcontent_2" viewBox="0 0 225 81" width="225" height="81">
+  <style>.pinname {font-size:12px; font-style:normal; font-variant:normal; font-weight:500; font-stretch:normal; text-align:center; text-anchor:end; font-family:Helvetica} .wirename {font-size:12px; font-style:normal; font-variant:normal; font-weight:500; font-stretch:normal; text-align:center; text-anchor:start; font-family:Helvetica} .wirename:hover {fill:blue} .gate {color:#000; fill:#ffc; fill-opacity: 1;stroke:#000; stroke-width:1; stroke-opacity:1} .gate:hover {fill:red !important; } .wire {fill:none; stroke:#000; stroke-width:1; stroke-opacity:1} .grid {fill:#fff; fill-opacity:1; stroke:none}</style>
+  <g transform="translate(0.5, 0.5)">
+    <g>
+      <g>
+        <g>
+          <g transform="translate(16,0)">
+            <path d="M160,32 160,32" class="wire"/>
+          </g>
+          <g>
+            <path d="m160,32 16,0" class="wire"/>
+          </g>
+          <g transform="translate(192,32)">
+            <title>
+              <tspan>q</tspan>
+            </title>
+            <text x="-14" y="4" class="wirename">
+              <tspan>q</tspan>
+            </text>
+          </g>
+        </g>
+        <g>
+          <g>
+            <g>
+              <path d="M96,16 L128,16" class="wire"/>
+            </g>
+            <g>
+              <path d="M96,32 L128,32" class="wire"/>
+            </g>
+            <g>
+              <path d="M96,48 L128,48" class="wire"/>
+            </g>
+            <g>
+              <path d="M96,64 L128,64" class="wire"/>
+            </g>
+            <g transform="translate(160,32)">
+              <title>
+                <tspan>$dff</tspan>
+              </title>
+              <g>
+                <path class="gate" d="m -32,-24 32,0 0,64 -32,0 z"/>
+                <text x="-30" y="4" class="wirename">D</text>
+                <text x="-30" y="-12" class="wirename">S</text>
+                <text x="-30" y="36" class="wirename">R</text>
+                <path class="wire" d="M -32,12 -26,16 -32,20"/>
+                <text x="-2" y="4" class="pinname">Q</text>
+              </g>
+            </g>
+          </g>
+          <g>
+            <g transform="translate(96,16)">
+              <title>
+                <tspan>set</tspan>
+              </title>
+              <path d="M 2,0 a 2,2 0 1 1 -4,0 2,2 0 1 1 4,0 z"/>
+              <text x="-4" y="4" class="pinname">
+                <tspan>set</tspan>
+              </text>
+            </g>
+          </g>
+          <g>
+            <g transform="translate(96,32)">
+              <title>
+                <tspan>din</tspan>
+              </title>
+              <path d="M 2,0 a 2,2 0 1 1 -4,0 2,2 0 1 1 4,0 z"/>
+              <text x="-4" y="4" class="pinname">
+                <tspan>din</tspan>
+              </text>
+            </g>
+          </g>
+          <g>
+            <g transform="translate(96,48)">
+              <title>
+                <tspan>clock</tspan>
+              </title>
+              <path d="M 2,0 a 2,2 0 1 1 -4,0 2,2 0 1 1 4,0 z"/>
+              <text x="-4" y="4" class="pinname">
+                <tspan>clock</tspan>
+              </text>
+            </g>
+          </g>
+          <g>
+            <g transform="translate(96,64)">
+              <title>
+                <tspan>reset</tspan>
+              </title>
+              <path d="M 2,0 a 2,2 0 1 1 -4,0 2,2 0 1 1 4,0 z"/>
+              <text x="-4" y="4" class="pinname">
+                <tspan>reset</tspan>
+              </text>
+            </g>
+          </g>
+        </g>
+      </g>
+    </g>
+  </g>
+</svg>
+
+<hr><h3>dff_full</h3>
+<pre>[
+    [
+        "q",
+        [
+            "$dff",
+            {
+                "d": "din",
+                "clk": "clock",
+                "s": "set",
+                "r": "reset",
+                "qn": "q_bar"
+            }
+        ]
+    ]
+]</pre>
+<svg id="svgcontent_3" viewBox="0 0 225 81" width="225" height="81">
+  <style>.pinname {font-size:12px; font-style:normal; font-variant:normal; font-weight:500; font-stretch:normal; text-align:center; text-anchor:end; font-family:Helvetica} .wirename {font-size:12px; font-style:normal; font-variant:normal; font-weight:500; font-stretch:normal; text-align:center; text-anchor:start; font-family:Helvetica} .wirename:hover {fill:blue} .gate {color:#000; fill:#ffc; fill-opacity: 1;stroke:#000; stroke-width:1; stroke-opacity:1} .gate:hover {fill:red !important; } .wire {fill:none; stroke:#000; stroke-width:1; stroke-opacity:1} .grid {fill:#fff; fill-opacity:1; stroke:none}</style>
+  <g transform="translate(0.5, 0.5)">
+    <g>
+      <g>
+        <g>
+          <g transform="translate(16,0)">
+            <path d="M160,32 160,32" class="wire"/>
+          </g>
+          <g>
+            <path d="m160,32 16,0" class="wire"/>
+          </g>
+          <g transform="translate(192,32)">
+            <title>
+              <tspan>q</tspan>
+            </title>
+            <text x="-14" y="4" class="wirename">
+              <tspan>q</tspan>
+            </text>
+          </g>
+        </g>
+        <g>
+          <g>
+            <g>
+              <path d="M96,16 L128,16" class="wire"/>
+            </g>
+            <g>
+              <path d="M96,32 L128,32" class="wire"/>
+            </g>
+            <g>
+              <path d="M96,48 L128,48" class="wire"/>
+            </g>
+            <g>
+              <path d="M96,64 L128,64" class="wire"/>
+            </g>
+            <g>
+              <path d="M164,48 L176,48" class="wire"/>
+            </g>
+            <g>
+              <text x="180" y="52" class="wirename">
+                <tspan>q_bar</tspan>
+              </text>
+            </g>
+            <g transform="translate(160,32)">
+              <title>
+                <tspan>$dff</tspan>
+              </title>
+              <g>
+                <path class="gate" d="m -32,-24 32,0 0,64 -32,0 z"/>
+                <text x="-30" y="4" class="wirename">D</text>
+                <text x="-30" y="-12" class="wirename">S</text>
+                <text x="-30" y="36" class="wirename">R</text>
+                <path class="wire" d="M -32,12 -26,16 -32,20"/>
+                <text x="-2" y="4" class="pinname">Q</text>
+                <text x="-6" y="20" class="pinname">
+                  <tspan>Q̅</tspan>
+                </text>
+                <path class="gate" d="M 4,16 C 4,17.1 3.1,18 2,18 0.9,18 0,17.1 0,16 0,14.9 0.9,14 2,14 3.1,14 4,14.9 4,16 z"/>
+              </g>
+            </g>
+          </g>
+          <g>
+            <g transform="translate(96,16)">
+              <title>
+                <tspan>set</tspan>
+              </title>
+              <path d="M 2,0 a 2,2 0 1 1 -4,0 2,2 0 1 1 4,0 z"/>
+              <text x="-4" y="4" class="pinname">
+                <tspan>set</tspan>
+              </text>
+            </g>
+          </g>
+          <g>
+            <g transform="translate(96,32)">
+              <title>
+                <tspan>din</tspan>
+              </title>
+              <path d="M 2,0 a 2,2 0 1 1 -4,0 2,2 0 1 1 4,0 z"/>
+              <text x="-4" y="4" class="pinname">
+                <tspan>din</tspan>
+              </text>
+            </g>
+          </g>
+          <g>
+            <g transform="translate(96,48)">
+              <title>
+                <tspan>clock</tspan>
+              </title>
+              <path d="M 2,0 a 2,2 0 1 1 -4,0 2,2 0 1 1 4,0 z"/>
+              <text x="-4" y="4" class="pinname">
+                <tspan>clock</tspan>
+              </text>
+            </g>
+          </g>
+          <g>
+            <g transform="translate(96,64)">
+              <title>
+                <tspan>reset</tspan>
+              </title>
+              <path d="M 2,0 a 2,2 0 1 1 -4,0 2,2 0 1 1 4,0 z"/>
+              <text x="-4" y="4" class="pinname">
+                <tspan>reset</tspan>
+              </text>
+            </g>
+          </g>
+        </g>
+      </g>
+    </g>
+  </g>
+</svg>
+
+<hr><h3>dff_with_qn</h3>
+<pre>[
+    [
+        "q",
+        [
+            "$dff",
+            {
+                "d": "din",
+                "clk": "clock",
+                "qn": "q_n"
+            }
+        ]
+    ]
+]</pre>
+<svg id="svgcontent_4" viewBox="0 0 225 49" width="225" height="49">
+  <style>.pinname {font-size:12px; font-style:normal; font-variant:normal; font-weight:500; font-stretch:normal; text-align:center; text-anchor:end; font-family:Helvetica} .wirename {font-size:12px; font-style:normal; font-variant:normal; font-weight:500; font-stretch:normal; text-align:center; text-anchor:start; font-family:Helvetica} .wirename:hover {fill:blue} .gate {color:#000; fill:#ffc; fill-opacity: 1;stroke:#000; stroke-width:1; stroke-opacity:1} .gate:hover {fill:red !important; } .wire {fill:none; stroke:#000; stroke-width:1; stroke-opacity:1} .grid {fill:#fff; fill-opacity:1; stroke:none}</style>
+  <g transform="translate(0.5, 0.5)">
+    <g>
+      <g>
+        <g>
+          <g transform="translate(16,0)">
+            <path d="M160,16 160,16" class="wire"/>
+          </g>
+          <g>
+            <path d="m160,16 16,0" class="wire"/>
+          </g>
+          <g transform="translate(192,16)">
+            <title>
+              <tspan>q</tspan>
+            </title>
+            <text x="-14" y="4" class="wirename">
+              <tspan>q</tspan>
+            </text>
+          </g>
+        </g>
+        <g>
+          <g>
+            <g>
+              <path d="M96,16 L128,16" class="wire"/>
+            </g>
+            <g>
+              <path d="M96,32 L128,32" class="wire"/>
+            </g>
+            <g>
+              <path d="M164,32 L176,32" class="wire"/>
+            </g>
+            <g>
+              <text x="180" y="36" class="wirename">
+                <tspan>q_n</tspan>
+              </text>
+            </g>
+            <g transform="translate(160,16)">
+              <title>
+                <tspan>$dff</tspan>
+              </title>
+              <g>
+                <path class="gate" d="m -32,-8 32,0 0,32 -32,0 z"/>
+                <text x="-30" y="4" class="wirename">D</text>
+                <path class="wire" d="M -32,12 -26,16 -32,20"/>
+                <text x="-2" y="4" class="pinname">Q</text>
+                <text x="-6" y="20" class="pinname">
+                  <tspan>Q̅</tspan>
+                </text>
+                <path class="gate" d="M 4,16 C 4,17.1 3.1,18 2,18 0.9,18 0,17.1 0,16 0,14.9 0.9,14 2,14 3.1,14 4,14.9 4,16 z"/>
+              </g>
+            </g>
+          </g>
+          <g>
+            <g transform="translate(96,16)">
+              <title>
+                <tspan>din</tspan>
+              </title>
+              <path d="M 2,0 a 2,2 0 1 1 -4,0 2,2 0 1 1 4,0 z"/>
+              <text x="-4" y="4" class="pinname">
+                <tspan>din</tspan>
+              </text>
+            </g>
+          </g>
+          <g>
+            <g transform="translate(96,32)">
+              <title>
+                <tspan>clock</tspan>
+              </title>
+              <path d="M 2,0 a 2,2 0 1 1 -4,0 2,2 0 1 1 4,0 z"/>
+              <text x="-4" y="4" class="pinname">
+                <tspan>clock</tspan>
+              </text>
+            </g>
+          </g>
+        </g>
+      </g>
+    </g>
+  </g>
+</svg>
+
+<hr><h3>dff_expr_input</h3>
+<pre>[
+    [
+        "q",
+        [
+            "$dff",
+            {
+                "d": [
+                    "&",
+                    "a",
+                    "b"
+                ],
+                "clk": "clock"
+            }
+        ]
+    ]
+]</pre>
+<svg id="svgcontent_5" viewBox="0 0 225 65" width="225" height="65">
+  <style>.pinname {font-size:12px; font-style:normal; font-variant:normal; font-weight:500; font-stretch:normal; text-align:center; text-anchor:end; font-family:Helvetica} .wirename {font-size:12px; font-style:normal; font-variant:normal; font-weight:500; font-stretch:normal; text-align:center; text-anchor:start; font-family:Helvetica} .wirename:hover {fill:blue} .gate {color:#000; fill:#ffc; fill-opacity: 1;stroke:#000; stroke-width:1; stroke-opacity:1} .gate:hover {fill:red !important; } .wire {fill:none; stroke:#000; stroke-width:1; stroke-opacity:1} .grid {fill:#fff; fill-opacity:1; stroke:none}</style>
+  <g transform="translate(0.5, 0.5)">
+    <g>
+      <g>
+        <g>
+          <g transform="translate(16,0)">
+            <path d="M160,24 160,24" class="wire"/>
+          </g>
+          <g>
+            <path d="m160,24 16,0" class="wire"/>
+          </g>
+          <g transform="translate(192,24)">
+            <title>
+              <tspan>q</tspan>
+            </title>
+            <text x="-14" y="4" class="wirename">
+              <tspan>q</tspan>
+            </text>
+          </g>
+        </g>
+        <g>
+          <g>
+            <g>
+              <path d="M96,24 L128,24" class="wire"/>
+            </g>
+            <g>
+              <path d="M96,48 L128,48" class="wire"/>
+            </g>
+            <g transform="translate(160,24)">
+              <title>
+                <tspan>$dff</tspan>
+              </title>
+              <g>
+                <path class="gate" d="m -32,-8 32,0 0,40 -32,0 z"/>
+                <text x="-30" y="4" class="wirename">D</text>
+                <path class="wire" d="M -32,20 -26,24 -32,28"/>
+                <text x="-2" y="4" class="pinname">Q</text>
+              </g>
+            </g>
+          </g>
+          <g>
+            <g>
+              <g transform="translate(16,0)">
+                <path d="M64,16 64,32" class="wire"/>
+              </g>
+              <g>
+                <path d="m64,16 16,0" class="wire"/>
+              </g>
+              <g>
+                <path d="m64,32 16,0" class="wire"/>
+              </g>
+              <g transform="translate(96,24)">
+                <title>
+                  <tspan>&amp;</tspan>
+                </title>
+                <path class="gate" d="m -16,-10 5,0 c 6,0 11,4 11,10 0,6 -5,10 -11,10 l -5,0 z"/>
+              </g>
+            </g>
+            <g>
+              <g transform="translate(64,16)">
+                <title>
+                  <tspan>a</tspan>
+                </title>
+                <path d="M 2,0 a 2,2 0 1 1 -4,0 2,2 0 1 1 4,0 z"/>
+                <text x="-4" y="4" class="pinname">
+                  <tspan>a</tspan>
+                </text>
+              </g>
+            </g>
+            <g>
+              <g transform="translate(64,32)">
+                <title>
+                  <tspan>b</tspan>
+                </title>
+                <path d="M 2,0 a 2,2 0 1 1 -4,0 2,2 0 1 1 4,0 z"/>
+                <text x="-4" y="4" class="pinname">
+                  <tspan>b</tspan>
+                </text>
+              </g>
+            </g>
+          </g>
+          <g>
+            <g transform="translate(96,48)">
+              <title>
+                <tspan>clock</tspan>
+              </title>
+              <path d="M 2,0 a 2,2 0 1 1 -4,0 2,2 0 1 1 4,0 z"/>
+              <text x="-4" y="4" class="pinname">
+                <tspan>clock</tspan>
+              </text>
+            </g>
+          </g>
+        </g>
+      </g>
+    </g>
+  </g>
+</svg>
+
+<hr><h3>dff_expr_full</h3>
+<pre>[
+    [
+        "q",
+        [
+            "$dff",
+            {
+                "d": [
+                    "|",
+                    "x",
+                    "y"
+                ],
+                "clk": "clk",
+                "s": "set",
+                "r": [
+                    "&",
+                    "rst0",
+                    "rst1"
+                ],
+                "qn": "q_bar"
+            }
+        ]
+    ]
+]</pre>
+<svg id="svgcontent_6" viewBox="0 0 225 113" width="225" height="113">
+  <style>.pinname {font-size:12px; font-style:normal; font-variant:normal; font-weight:500; font-stretch:normal; text-align:center; text-anchor:end; font-family:Helvetica} .wirename {font-size:12px; font-style:normal; font-variant:normal; font-weight:500; font-stretch:normal; text-align:center; text-anchor:start; font-family:Helvetica} .wirename:hover {fill:blue} .gate {color:#000; fill:#ffc; fill-opacity: 1;stroke:#000; stroke-width:1; stroke-opacity:1} .gate:hover {fill:red !important; } .wire {fill:none; stroke:#000; stroke-width:1; stroke-opacity:1} .grid {fill:#fff; fill-opacity:1; stroke:none}</style>
+  <g transform="translate(0.5, 0.5)">
+    <g>
+      <g>
+        <g>
+          <g transform="translate(16,0)">
+            <path d="M160,40 160,40" class="wire"/>
+          </g>
+          <g>
+            <path d="m160,40 16,0" class="wire"/>
+          </g>
+          <g transform="translate(192,40)">
+            <title>
+              <tspan>q</tspan>
+            </title>
+            <text x="-14" y="4" class="wirename">
+              <tspan>q</tspan>
+            </text>
+          </g>
+        </g>
+        <g>
+          <g>
+            <g>
+              <path d="M96,16 L128,16" class="wire"/>
+            </g>
+            <g>
+              <path d="M96,40 L128,40" class="wire"/>
+            </g>
+            <g>
+              <path d="M96,64 L128,64" class="wire"/>
+            </g>
+            <g>
+              <path d="M96,88 L128,88" class="wire"/>
+            </g>
+            <g>
+              <path d="M164,64 L176,64" class="wire"/>
+            </g>
+            <g>
+              <text x="180" y="68" class="wirename">
+                <tspan>q_bar</tspan>
+              </text>
+            </g>
+            <g transform="translate(160,40)">
+              <title>
+                <tspan>$dff</tspan>
+              </title>
+              <g>
+                <path class="gate" d="m -32,-32 32,0 0,88 -32,0 z"/>
+                <text x="-30" y="4" class="wirename">D</text>
+                <text x="-30" y="-20" class="wirename">S</text>
+                <text x="-30" y="52" class="wirename">R</text>
+                <path class="wire" d="M -32,20 -26,24 -32,28"/>
+                <text x="-2" y="4" class="pinname">Q</text>
+                <text x="-6" y="28" class="pinname">
+                  <tspan>Q̅</tspan>
+                </text>
+                <path class="gate" d="M 4,24 C 4,25.1 3.1,26 2,26 0.9,26 0,25.1 0,24 0,22.9 0.9,22 2,22 3.1,22 4,22.9 4,24 z"/>
+              </g>
+            </g>
+          </g>
+          <g>
+            <g transform="translate(96,16)">
+              <title>
+                <tspan>set</tspan>
+              </title>
+              <path d="M 2,0 a 2,2 0 1 1 -4,0 2,2 0 1 1 4,0 z"/>
+              <text x="-4" y="4" class="pinname">
+                <tspan>set</tspan>
+              </text>
+            </g>
+          </g>
+          <g>
+            <g>
+              <g transform="translate(16,0)">
+                <path d="M64,32 64,48" class="wire"/>
+              </g>
+              <g>
+                <path d="m64,32 16,0" class="wire"/>
+              </g>
+              <g>
+                <path d="m64,48 16,0" class="wire"/>
+              </g>
+              <g transform="translate(96,40)">
+                <title>
+                  <tspan>|</tspan>
+                </title>
+                <path class="gate" d="m -18,-10 4,0 c 6,0 12,5 14,10 -2,5 -8,10 -14,10 l -4,0 c 2.5,-5 2.5,-15 0,-20 z"/>
+              </g>
+            </g>
+            <g>
+              <g transform="translate(64,32)">
+                <title>
+                  <tspan>x</tspan>
+                </title>
+                <path d="M 2,0 a 2,2 0 1 1 -4,0 2,2 0 1 1 4,0 z"/>
+                <text x="-4" y="4" class="pinname">
+                  <tspan>x</tspan>
+                </text>
+              </g>
+            </g>
+            <g>
+              <g transform="translate(64,48)">
+                <title>
+                  <tspan>y</tspan>
+                </title>
+                <path d="M 2,0 a 2,2 0 1 1 -4,0 2,2 0 1 1 4,0 z"/>
+                <text x="-4" y="4" class="pinname">
+                  <tspan>y</tspan>
+                </text>
+              </g>
+            </g>
+          </g>
+          <g>
+            <g transform="translate(96,64)">
+              <title>
+                <tspan>clk</tspan>
+              </title>
+              <path d="M 2,0 a 2,2 0 1 1 -4,0 2,2 0 1 1 4,0 z"/>
+              <text x="-4" y="4" class="pinname">
+                <tspan>clk</tspan>
+              </text>
+            </g>
+          </g>
+          <g>
+            <g>
+              <g transform="translate(16,0)">
+                <path d="M64,80 64,96" class="wire"/>
+              </g>
+              <g>
+                <path d="m64,80 16,0" class="wire"/>
+              </g>
+              <g>
+                <path d="m64,96 16,0" class="wire"/>
+              </g>
+              <g transform="translate(96,88)">
+                <title>
+                  <tspan>&amp;</tspan>
+                </title>
+                <path class="gate" d="m -16,-10 5,0 c 6,0 11,4 11,10 0,6 -5,10 -11,10 l -5,0 z"/>
+              </g>
+            </g>
+            <g>
+              <g transform="translate(64,80)">
+                <title>
+                  <tspan>rst0</tspan>
+                </title>
+                <path d="M 2,0 a 2,2 0 1 1 -4,0 2,2 0 1 1 4,0 z"/>
+                <text x="-4" y="4" class="pinname">
+                  <tspan>rst0</tspan>
+                </text>
+              </g>
+            </g>
+            <g>
+              <g transform="translate(64,96)">
+                <title>
+                  <tspan>rst1</tspan>
+                </title>
+                <path d="M 2,0 a 2,2 0 1 1 -4,0 2,2 0 1 1 4,0 z"/>
+                <text x="-4" y="4" class="pinname">
+                  <tspan>rst1</tspan>
+                </text>
+              </g>
+            </g>
+          </g>
+        </g>
+      </g>
+    </g>
+  </g>
+</svg>
+
+<hr><h3>dff_mux_tree</h3>
+<pre>[
+    [
+        "q",
+        [
+            "$dff",
+            {
+                "d": [
+                    "?",
+                    "s1",
+                    [
+                        "?",
+                        "s0",
+                        "a",
+                        "b",
+                        "c",
+                        "d"
+                    ],
+                    [
+                        "?",
+                        "s0",
+                        "e",
+                        "f",
+                        "g",
+                        "h"
+                    ],
+                    [
+                        "?",
+                        "s0",
+                        "i",
+                        "j",
+                        "k",
+                        "l"
+                    ],
+                    [
+                        "?",
+                        "s0",
+                        "m",
+                        "n",
+                        "o",
+                        "p"
+                    ]
+                ],
+                "clk": "clk",
+                "r": "reset"
+            }
+        ]
+    ]
+]</pre>
+<svg id="svgcontent_7" viewBox="0 0 257 385" width="257" height="385">
+  <style>.pinname {font-size:12px; font-style:normal; font-variant:normal; font-weight:500; font-stretch:normal; text-align:center; text-anchor:end; font-family:Helvetica} .wirename {font-size:12px; font-style:normal; font-variant:normal; font-weight:500; font-stretch:normal; text-align:center; text-anchor:start; font-family:Helvetica} .wirename:hover {fill:blue} .gate {color:#000; fill:#ffc; fill-opacity: 1;stroke:#000; stroke-width:1; stroke-opacity:1} .gate:hover {fill:red !important; } .wire {fill:none; stroke:#000; stroke-width:1; stroke-opacity:1} .grid {fill:#fff; fill-opacity:1; stroke:none}</style>
+  <g transform="translate(0.5, 0.5)">
+    <g>
+      <g>
+        <g>
+          <g transform="translate(16,0)">
+            <path d="M192,256 192,256" class="wire"/>
+          </g>
+          <g>
+            <path d="m192,256 16,0" class="wire"/>
+          </g>
+          <g transform="translate(224,256)">
+            <title>
+              <tspan>q</tspan>
+            </title>
+            <text x="-14" y="4" class="wirename">
+              <tspan>q</tspan>
+            </text>
+          </g>
+        </g>
+        <g>
+          <g>
+            <g>
+              <path d="M128,256 L160,256" class="wire"/>
+            </g>
+            <g>
+              <path d="M128,352 L160,352" class="wire"/>
+            </g>
+            <g>
+              <path d="M128,368 L160,368" class="wire"/>
+            </g>
+            <g transform="translate(192,256)">
+              <title>
+                <tspan>$dff</tspan>
+              </title>
+              <g>
+                <path class="gate" d="m -32,-8 32,0 0,128 -32,0 z"/>
+                <text x="-30" y="4" class="wirename">D</text>
+                <text x="-30" y="116" class="wirename">R</text>
+                <path class="wire" d="M -32,92 -26,96 -32,100"/>
+                <text x="-2" y="4" class="pinname">Q</text>
+              </g>
+            </g>
+          </g>
+          <g>
+            <g>
+              <g>
+                <path d="M96,40 L108,40 L108,232 L112,232" class="wire"/>
+              </g>
+              <g>
+                <path d="M96,120 L104,120 L104,248 L112,248" class="wire"/>
+              </g>
+              <g>
+                <path d="M96,200 L100,200 L100,264 L112,264" class="wire"/>
+              </g>
+              <g>
+                <path d="M96,280 L112,280" class="wire"/>
+              </g>
+              <g>
+                <path d="M96,336 L120,336 L120,288" class="wire"/>
+              </g>
+              <g transform="translate(128,256)">
+                <title>
+                  <tspan>?</tspan>
+                </title>
+                <g>
+                  <path class="gate" d="M -16,-35 L 0,-29 L 0,29 L -16,35 Z"/>
+                  <text x="-15" y="-20" class="wirename">
+                    <tspan>0</tspan>
+                  </text>
+                  <text x="-15" y="-4" class="wirename">
+                    <tspan>1</tspan>
+                  </text>
+                  <text x="-15" y="12" class="wirename">
+                    <tspan>2</tspan>
+                  </text>
+                  <text x="-15" y="28" class="wirename">
+                    <tspan>3</tspan>
+                  </text>
+                </g>
+              </g>
+            </g>
+            <g>
+              <g transform="translate(96,336)">
+                <title>
+                  <tspan>s1</tspan>
+                </title>
+                <path d="M 2,0 a 2,2 0 1 1 -4,0 2,2 0 1 1 4,0 z"/>
+                <text x="-4" y="4" class="pinname">
+                  <tspan>s1</tspan>
+                </text>
+              </g>
+            </g>
+            <g>
+              <g>
+                <g>
+                  <path d="M64,16 L80,16" class="wire"/>
+                </g>
+                <g>
+                  <path d="M64,32 L80,32" class="wire"/>
+                </g>
+                <g>
+                  <path d="M64,48 L80,48" class="wire"/>
+                </g>
+                <g>
+                  <path d="M64,64 L80,64" class="wire"/>
+                </g>
+                <g>
+                  <path d="M64,80 L88,80 L88,72" class="wire"/>
+                </g>
+                <g transform="translate(96,40)">
+                  <title>
+                    <tspan>?</tspan>
+                  </title>
+                  <g>
+                    <path class="gate" d="M -16,-35 L 0,-29 L 0,29 L -16,35 Z"/>
+                    <text x="-15" y="-20" class="wirename">
+                      <tspan>0</tspan>
+                    </text>
+                    <text x="-15" y="-4" class="wirename">
+                      <tspan>1</tspan>
+                    </text>
+                    <text x="-15" y="12" class="wirename">
+                      <tspan>2</tspan>
+                    </text>
+                    <text x="-15" y="28" class="wirename">
+                      <tspan>3</tspan>
+                    </text>
+                  </g>
+                </g>
+              </g>
+              <g>
+                <g transform="translate(64,80)">
+                  <title>
+                    <tspan>s0</tspan>
+                  </title>
+                  <path d="M 2,0 a 2,2 0 1 1 -4,0 2,2 0 1 1 4,0 z"/>
+                  <text x="-4" y="4" class="pinname">
+                    <tspan>s0</tspan>
+                  </text>
+                </g>
+              </g>
+              <g>
+                <g transform="translate(64,16)">
+                  <title>
+                    <tspan>a</tspan>
+                  </title>
+                  <path d="M 2,0 a 2,2 0 1 1 -4,0 2,2 0 1 1 4,0 z"/>
+                  <text x="-4" y="4" class="pinname">
+                    <tspan>a</tspan>
+                  </text>
+                </g>
+              </g>
+              <g>
+                <g transform="translate(64,32)">
+                  <title>
+                    <tspan>b</tspan>
+                  </title>
+                  <path d="M 2,0 a 2,2 0 1 1 -4,0 2,2 0 1 1 4,0 z"/>
+                  <text x="-4" y="4" class="pinname">
+                    <tspan>b</tspan>
+                  </text>
+                </g>
+              </g>
+              <g>
+                <g transform="translate(64,48)">
+                  <title>
+                    <tspan>c</tspan>
+                  </title>
+                  <path d="M 2,0 a 2,2 0 1 1 -4,0 2,2 0 1 1 4,0 z"/>
+                  <text x="-4" y="4" class="pinname">
+                    <tspan>c</tspan>
+                  </text>
+                </g>
+              </g>
+              <g>
+                <g transform="translate(64,64)">
+                  <title>
+                    <tspan>d</tspan>
+                  </title>
+                  <path d="M 2,0 a 2,2 0 1 1 -4,0 2,2 0 1 1 4,0 z"/>
+                  <text x="-4" y="4" class="pinname">
+                    <tspan>d</tspan>
+                  </text>
+                </g>
+              </g>
+            </g>
+            <g>
+              <g>
+                <g>
+                  <path d="M64,96 L80,96" class="wire"/>
+                </g>
+                <g>
+                  <path d="M64,112 L80,112" class="wire"/>
+                </g>
+                <g>
+                  <path d="M64,128 L80,128" class="wire"/>
+                </g>
+                <g>
+                  <path d="M64,144 L80,144" class="wire"/>
+                </g>
+                <g>
+                  <path d="M64,160 L88,160 L88,152" class="wire"/>
+                </g>
+                <g transform="translate(96,120)">
+                  <title>
+                    <tspan>?</tspan>
+                  </title>
+                  <g>
+                    <path class="gate" d="M -16,-35 L 0,-29 L 0,29 L -16,35 Z"/>
+                    <text x="-15" y="-20" class="wirename">
+                      <tspan>0</tspan>
+                    </text>
+                    <text x="-15" y="-4" class="wirename">
+                      <tspan>1</tspan>
+                    </text>
+                    <text x="-15" y="12" class="wirename">
+                      <tspan>2</tspan>
+                    </text>
+                    <text x="-15" y="28" class="wirename">
+                      <tspan>3</tspan>
+                    </text>
+                  </g>
+                </g>
+              </g>
+              <g>
+                <g transform="translate(64,160)">
+                  <title>
+                    <tspan>s0</tspan>
+                  </title>
+                  <path d="M 2,0 a 2,2 0 1 1 -4,0 2,2 0 1 1 4,0 z"/>
+                  <text x="-4" y="4" class="pinname">
+                    <tspan>s0</tspan>
+                  </text>
+                </g>
+              </g>
+              <g>
+                <g transform="translate(64,96)">
+                  <title>
+                    <tspan>e</tspan>
+                  </title>
+                  <path d="M 2,0 a 2,2 0 1 1 -4,0 2,2 0 1 1 4,0 z"/>
+                  <text x="-4" y="4" class="pinname">
+                    <tspan>e</tspan>
+                  </text>
+                </g>
+              </g>
+              <g>
+                <g transform="translate(64,112)">
+                  <title>
+                    <tspan>f</tspan>
+                  </title>
+                  <path d="M 2,0 a 2,2 0 1 1 -4,0 2,2 0 1 1 4,0 z"/>
+                  <text x="-4" y="4" class="pinname">
+                    <tspan>f</tspan>
+                  </text>
+                </g>
+              </g>
+              <g>
+                <g transform="translate(64,128)">
+                  <title>
+                    <tspan>g</tspan>
+                  </title>
+                  <path d="M 2,0 a 2,2 0 1 1 -4,0 2,2 0 1 1 4,0 z"/>
+                  <text x="-4" y="4" class="pinname">
+                    <tspan>g</tspan>
+                  </text>
+                </g>
+              </g>
+              <g>
+                <g transform="translate(64,144)">
+                  <title>
+                    <tspan>h</tspan>
+                  </title>
+                  <path d="M 2,0 a 2,2 0 1 1 -4,0 2,2 0 1 1 4,0 z"/>
+                  <text x="-4" y="4" class="pinname">
+                    <tspan>h</tspan>
+                  </text>
+                </g>
+              </g>
+            </g>
+            <g>
+              <g>
+                <g>
+                  <path d="M64,176 L80,176" class="wire"/>
+                </g>
+                <g>
+                  <path d="M64,192 L80,192" class="wire"/>
+                </g>
+                <g>
+                  <path d="M64,208 L80,208" class="wire"/>
+                </g>
+                <g>
+                  <path d="M64,224 L80,224" class="wire"/>
+                </g>
+                <g>
+                  <path d="M64,240 L88,240 L88,232" class="wire"/>
+                </g>
+                <g transform="translate(96,200)">
+                  <title>
+                    <tspan>?</tspan>
+                  </title>
+                  <g>
+                    <path class="gate" d="M -16,-35 L 0,-29 L 0,29 L -16,35 Z"/>
+                    <text x="-15" y="-20" class="wirename">
+                      <tspan>0</tspan>
+                    </text>
+                    <text x="-15" y="-4" class="wirename">
+                      <tspan>1</tspan>
+                    </text>
+                    <text x="-15" y="12" class="wirename">
+                      <tspan>2</tspan>
+                    </text>
+                    <text x="-15" y="28" class="wirename">
+                      <tspan>3</tspan>
+                    </text>
+                  </g>
+                </g>
+              </g>
+              <g>
+                <g transform="translate(64,240)">
+                  <title>
+                    <tspan>s0</tspan>
+                  </title>
+                  <path d="M 2,0 a 2,2 0 1 1 -4,0 2,2 0 1 1 4,0 z"/>
+                  <text x="-4" y="4" class="pinname">
+                    <tspan>s0</tspan>
+                  </text>
+                </g>
+              </g>
+              <g>
+                <g transform="translate(64,176)">
+                  <title>
+                    <tspan>i</tspan>
+                  </title>
+                  <path d="M 2,0 a 2,2 0 1 1 -4,0 2,2 0 1 1 4,0 z"/>
+                  <text x="-4" y="4" class="pinname">
+                    <tspan>i</tspan>
+                  </text>
+                </g>
+              </g>
+              <g>
+                <g transform="translate(64,192)">
+                  <title>
+                    <tspan>j</tspan>
+                  </title>
+                  <path d="M 2,0 a 2,2 0 1 1 -4,0 2,2 0 1 1 4,0 z"/>
+                  <text x="-4" y="4" class="pinname">
+                    <tspan>j</tspan>
+                  </text>
+                </g>
+              </g>
+              <g>
+                <g transform="translate(64,208)">
+                  <title>
+                    <tspan>k</tspan>
+                  </title>
+                  <path d="M 2,0 a 2,2 0 1 1 -4,0 2,2 0 1 1 4,0 z"/>
+                  <text x="-4" y="4" class="pinname">
+                    <tspan>k</tspan>
+                  </text>
+                </g>
+              </g>
+              <g>
+                <g transform="translate(64,224)">
+                  <title>
+                    <tspan>l</tspan>
+                  </title>
+                  <path d="M 2,0 a 2,2 0 1 1 -4,0 2,2 0 1 1 4,0 z"/>
+                  <text x="-4" y="4" class="pinname">
+                    <tspan>l</tspan>
+                  </text>
+                </g>
+              </g>
+            </g>
+            <g>
+              <g>
+                <g>
+                  <path d="M64,256 L80,256" class="wire"/>
+                </g>
+                <g>
+                  <path d="M64,272 L80,272" class="wire"/>
+                </g>
+                <g>
+                  <path d="M64,288 L80,288" class="wire"/>
+                </g>
+                <g>
+                  <path d="M64,304 L80,304" class="wire"/>
+                </g>
+                <g>
+                  <path d="M64,320 L88,320 L88,312" class="wire"/>
+                </g>
+                <g transform="translate(96,280)">
+                  <title>
+                    <tspan>?</tspan>
+                  </title>
+                  <g>
+                    <path class="gate" d="M -16,-35 L 0,-29 L 0,29 L -16,35 Z"/>
+                    <text x="-15" y="-20" class="wirename">
+                      <tspan>0</tspan>
+                    </text>
+                    <text x="-15" y="-4" class="wirename">
+                      <tspan>1</tspan>
+                    </text>
+                    <text x="-15" y="12" class="wirename">
+                      <tspan>2</tspan>
+                    </text>
+                    <text x="-15" y="28" class="wirename">
+                      <tspan>3</tspan>
+                    </text>
+                  </g>
+                </g>
+              </g>
+              <g>
+                <g transform="translate(64,320)">
+                  <title>
+                    <tspan>s0</tspan>
+                  </title>
+                  <path d="M 2,0 a 2,2 0 1 1 -4,0 2,2 0 1 1 4,0 z"/>
+                  <text x="-4" y="4" class="pinname">
+                    <tspan>s0</tspan>
+                  </text>
+                </g>
+              </g>
+              <g>
+                <g transform="translate(64,256)">
+                  <title>
+                    <tspan>m</tspan>
+                  </title>
+                  <path d="M 2,0 a 2,2 0 1 1 -4,0 2,2 0 1 1 4,0 z"/>
+                  <text x="-4" y="4" class="pinname">
+                    <tspan>m</tspan>
+                  </text>
+                </g>
+              </g>
+              <g>
+                <g transform="translate(64,272)">
+                  <title>
+                    <tspan>n</tspan>
+                  </title>
+                  <path d="M 2,0 a 2,2 0 1 1 -4,0 2,2 0 1 1 4,0 z"/>
+                  <text x="-4" y="4" class="pinname">
+                    <tspan>n</tspan>
+                  </text>
+                </g>
+              </g>
+              <g>
+                <g transform="translate(64,288)">
+                  <title>
+                    <tspan>o</tspan>
+                  </title>
+                  <path d="M 2,0 a 2,2 0 1 1 -4,0 2,2 0 1 1 4,0 z"/>
+                  <text x="-4" y="4" class="pinname">
+                    <tspan>o</tspan>
+                  </text>
+                </g>
+              </g>
+              <g>
+                <g transform="translate(64,304)">
+                  <title>
+                    <tspan>p</tspan>
+                  </title>
+                  <path d="M 2,0 a 2,2 0 1 1 -4,0 2,2 0 1 1 4,0 z"/>
+                  <text x="-4" y="4" class="pinname">
+                    <tspan>p</tspan>
+                  </text>
+                </g>
+              </g>
+            </g>
+          </g>
+          <g>
+            <g transform="translate(128,352)">
+              <title>
+                <tspan>clk</tspan>
+              </title>
+              <path d="M 2,0 a 2,2 0 1 1 -4,0 2,2 0 1 1 4,0 z"/>
+              <text x="-4" y="4" class="pinname">
+                <tspan>clk</tspan>
+              </text>
+            </g>
+          </g>
+          <g>
+            <g transform="translate(128,368)">
+              <title>
+                <tspan>reset</tspan>
+              </title>
+              <path d="M 2,0 a 2,2 0 1 1 -4,0 2,2 0 1 1 4,0 z"/>
+              <text x="-4" y="4" class="pinname">
+                <tspan>reset</tspan>
+              </text>
+            </g>
+          </g>
+        </g>
+      </g>
+    </g>
+  </g>
+</svg>
+
+<hr></body></html>
