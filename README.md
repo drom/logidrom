@@ -62,6 +62,7 @@ console.log(svgString);
 | `-` | Subtractor / Sub |
 | `*` | Multiplier / Mul |
 | `?` | MUX (multiplexer) |
+| `$dff` | D flip-flop |
 
 ### JavaScript Expression Rendering
 
