@@ -1,6 +1,6 @@
 {
   "name": "logidrom",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "description": "Digital logic circuit rendering engine",
   "main": "./lib/",
   "repository": {
@@ -26,6 +26,7 @@
   },
   "devDependencies": {
     "@drom/eslint-config": "^0.13.0",
+    "ajv": "^8.20.0",
     "browserify": "^17.0",
     "chai": "5.2.1",
     "eslint": "^8.57.1",

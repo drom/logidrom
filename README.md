@@ -78,6 +78,18 @@ const svg = logidrom.r(ast, { index: 0 });
 console.log(onml.stringify(svg));
 ```
 
+### JSON Schema
+
+`lib/schema.js` is the [JSON Schema](https://json-schema.org/) (draft-07) of the `{assign: [...], config: {...}}` input.
+It is part of the [WaveDrom schema](https://github.com/wavedrom/schema).
+
+```javascript
+const Ajv = require('ajv');
+const schema = require('logidrom/lib/schema.js'); // or require('logidrom').schema
+const validate = new Ajv().compile(schema);
+validate({assign: [['x', ['&', 'a', 'b']]]}); // true
+```
+
 ## Development
 
 ### Prerequisites

@@ -164,4 +164,6 @@ describe('basic', function () {
   });
 });
 
+module.exports = dat;
+
 /* eslint-env mocha */
