@@ -1,6 +1,6 @@
 {
   "name": "logidrom",
-  "version": "1.2.0",
+  "version": "1.2.1",
   "description": "Digital logic circuit rendering engine",
   "main": "./lib/",
   "repository": {
