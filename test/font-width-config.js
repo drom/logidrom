@@ -3,8 +3,6 @@
 const {expect} = require('chai');
 const renderAssign = require('../lib/render-assign.js');
 
-/* eslint-env mocha */
-
 describe('render configuration (fontWidth and treeSpacing)', () => {
   it('should use default fontWidth (7.23) when not specified', () => {
     const source = {

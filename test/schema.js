@@ -6,8 +6,6 @@ const {expect} = require('chai');
 const schema = require('../lib/schema.js');
 const samples = require('./basic.js');
 
-/* eslint-env mocha */
-
 const good = {
   simple: {assign: [['out', ['|', ['&', 'a', 'b'], ['~', 'c']]]]},
   ellipsis: {assign: [['z', ['~&', ['~^', ['~', 'p0'], ['~', 'q0']], '...', ['~', '~en']]]]},
